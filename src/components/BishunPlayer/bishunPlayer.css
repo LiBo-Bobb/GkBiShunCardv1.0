@@ -1,0 +1,25 @@
+.speedBtn {
+    width: 32px;
+    height: 32px;
+    background-color: #F0F0F0;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    color: #C8C8C8;
+    font-size: 14px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.controlSpeed {
+    width: 44px;
+    height: 138px;
+    /*border: 1px solid black;*/
+    position: absolute;
+    top: 30px;
+    right: 3%;
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;;
+}

@@ -1,0 +1,119 @@
+.topArea {
+    padding-top: 20px;
+    background: white;
+    max-width: 768px;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.TextBoxArea {
+    font-size: 16px;
+}
+
+.TextBoxArea .audioBigBox_gk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background: #ECECEC;*/
+    margin: 0 auto;
+    width: 64%;
+    flex-wrap: wrap;
+
+}
+
+.go_back {
+    color: white;
+    font-size: 18px;
+    /*text-align: center;*/
+    height: 40px;
+    line-height: 40px;
+    background: #6796F4;
+    text-indent: 15px;
+}
+
+.WordList {
+    overflow: hidden;
+    /*padding-top: 30px;*/
+    overflow-y: scroll;
+    background: white;
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding-top: 40px;
+    max-width: 768px;
+    margin: 0 auto;
+    -webkit-overflow-scrolling:touch;
+    -moz-overflow-scrolling:touch;
+
+}
+
+.WordList .textItemBox {
+    width: 33.3%;
+    float: left;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.WordList .textItemBox .textItem {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 50px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #417BEE;
+    /*font-family: SimSun, STKaiti, STSong;*/
+
+}
+
+.audioBox_gk {
+    display: flex;
+    margin-right: 10px;
+    position: relative;
+}
+
+.audioBox_gk .audioPinyin {
+    margin-right: 5px;
+    color: #417BEE;
+    font-size: 24px;
+
+}
+
+.textAudion {
+    width: 22px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.delete_comp {
+    position: absolute;
+    top: 27px;
+    right: 15px;
+    width: 20px;
+}
+
+.bookCover {
+    padding: 15px;
+    display: flex;
+    background: white;
+}
+
+.bookCover .leftCoverImg {
+    margin-right: 15px;
+
+}
+
+.bookCover .lesson_name_gk {
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+}
+
+

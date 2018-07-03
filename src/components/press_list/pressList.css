@@ -1,0 +1,9 @@
+.pressItem {
+    height: 44px;
+    margin: 15px;
+    background: #188EEE;
+    line-height: 44px;
+    text-indent: 10px;
+    border-radius: 4px;
+    color: white;
+}

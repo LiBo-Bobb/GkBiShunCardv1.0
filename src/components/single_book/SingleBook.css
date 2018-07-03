@@ -1,0 +1,57 @@
+.App {
+    padding: 0;
+    /*background: #f9f9f9;*/
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.App .courseTitleArea {
+    background: white;
+    /*margin: 10px 15px;*/
+}
+
+.leftCourseImg {
+    float: left;
+    margin-right: 2%;
+}
+
+.rightTextDesc {
+    float: left;
+    width: 60%;
+}
+
+.catalogList {
+    padding-left: 20px;
+    background-color: white;
+    max-width: 768px;
+    margin: 10px auto;
+    overflow-y: scroll;
+    position: fixed;
+    right: 0;
+    left: 0;
+    /*top: 190px;*/
+    top: 180px;
+    bottom: 0;
+    -webkit-overflow-scrolling:touch;
+}
+
+.catalogList .catalogItem {
+    height: 65px;
+    border-bottom: 1px solid #ECECEC;
+    display: flex;
+    align-items: center;
+
+}
+
+.catalogList .catalogItem .textBox {
+
+}
+
+.goBookList {
+    height: 40px;
+    background-color: #6796F4;
+    color: white;
+    font-size: 18px;
+    line-height: 40px;
+    text-indent: 15px;
+}
